@@ -1,0 +1,10 @@
+temperature = input ("body temperature: ")
+print(100 -int(temperature))
+
+if temperature > 37:
+    print("the child is abnormal")
+    print("seek treatment immediately")
+elif temperature < 37:
+    print ("normal")
+    print ("body temp is okay")
+
